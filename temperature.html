@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temperature.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Temperature</title>
+</head>
+
+<body>
+    <h2 class="text-center" style="color: #020202;">Temperature</h2>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID No</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Roll</th>
+                <th>Section</th>
+                <th>Temperature</th>
+                <th>Health Condiotion</th>
+                <th>School Uniform</th>
+                <th>Face Mask</th>
+                <th>Entry Time</th>
+                <th>Out Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="ID No">11455</td>
+                <td data-label="Name">Mahadir</td>
+                <td data-label="Class">7</td>
+                <td data-label="Roll">5</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">93<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:10</td>
+                <td data-label="Out Time">11:52</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">45492</td>
+                <td data-label="Name">Wafi</td>
+                <td data-label="Class">9</td>
+                <td data-label="Roll">7</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">87<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:05</td>
+                <td data-label="Out Time">11:58</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">36858</td>
+                <td data-label="Name">Atif</td>
+                <td data-label="Class">9</td>
+                <td data-label="Roll">4</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">92<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:16</td>
+                <td data-label="Out Time">11:45</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">59424</td>
+                <td data-label="Name">Saadman</td>
+                <td data-label="Class">6</td>
+                <td data-label="Roll">5</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">89<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:25</td>
+                <td data-label="Out Time">11:50</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">25971</td>
+                <td data-label="Name">Mihan</td>
+                <td data-label="Class">8</td>
+                <td data-label="Roll">12</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">87<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:12</td>
+                <td data-label="Out Time">11:52</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">45691</td>
+                <td data-label="Name">Jarif</td>
+                <td data-label="Class">9</td>
+                <td data-label="Roll">17</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">91<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:20</td>
+                <td data-label="Out Time">11:56</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">11598</td>
+                <td data-label="Name">Jisun</td>
+                <td data-label="Class">7</td>
+                <td data-label="Roll">19</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">97<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:10</td>
+                <td data-label="Out Time">11:49</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">14598</td>
+                <td data-label="Name">Faiza</td>
+                <td data-label="Class">6</td>
+                <td data-label="Roll">13</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">96<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:01</td>
+                <td data-label="Out Time">11:50</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">36585</td>
+                <td data-label="Name">Jihan</td>
+                <td data-label="Class">8</td>
+                <td data-label="Roll">5</td>
+                <td data-label="Section">B</td>
+                <td data-label="Temperature">91<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:15</td>
+                <td data-label="Out Time">11:45</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">45965</td>
+                <td data-label="Name">Manha</td>
+                <td data-label="Class">10</td>
+                <td data-label="Roll">1</td>
+                <td data-label="Section">B</td>
+                <td data-label="Temperature">98<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">6:58</td>
+                <td data-label="Out Time">11:47</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">59841</td>
+                <td data-label="Name">Tasbi</td>
+                <td data-label="Class">6</td>
+                <td data-label="Roll">17</td>
+                <td data-label="Section">B</td>
+                <td data-label="Temperature">90<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:21</td>
+                <td data-label="Out Time">11:56</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">59841</td>
+                <td data-label="Name">Ayon</td>
+                <td data-label="Class">6</td>
+                <td data-label="Roll">17</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">98<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:15</td>
+                <td data-label="Out Time">11:53</td>
+            </tr>
+            <tr>
+                <td data-label="ID No">59881</td>
+                <td data-label="Name">Binoy</td>
+                <td data-label="Class">6</td>
+                <td data-label="Roll">17</td>
+                <td data-label="Section">A</td>
+                <td data-label="Temperature">97<span>&#8457;</span></td>
+                <td data-label="Health Condiotion">Good</td>
+                <td data-label="School Uniform">Yes</td>
+                <td data-label="Face Mask">Yes</td>
+                <td data-label="Entry Time">7:11</td>
+                <td data-label="Out Time">11:52</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

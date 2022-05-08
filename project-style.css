@@ -1,0 +1,37 @@
+.row .head1 a {
+  text-decoration: none;
+  color: #ffc107;
+}
+.row .learn_more {
+  text-decoration: none;
+  color: #fff;
+  background-color: #dc143c;
+  padding: 4px 4px;
+  border-radius: 10px;
+}
+.row .learn_more:hover {
+  color: #dc143c;
+  background-color: #fff;
+  border: 2px solid #dc143c;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+}
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
+.row .box1 {
+  border: 2px solid red;
+  padding: 2%;
+  border-radius: 15px;
+}
